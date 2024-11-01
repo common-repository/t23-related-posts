@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 23t-related-posts\n"
+"POT-Creation-Date: 2013-09-09 16:31+0400\n"
+"PO-Revision-Date: 2013-09-09 16:31+0400\n"
+"Last-Translator: itlessons <info@itlessons.info>\n"
+"Language-Team: itlessons <info@itlessons.info>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././templates/admin.php:17
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: .././templates/admin.php:22
+msgid "Enabled:"
+msgstr "Включено:"
+
+#: .././templates/admin.php:31
+msgid "Search server:"
+msgstr "Поисковой сервер:"
+
+#: .././templates/admin.php:35
+msgid "Port:"
+msgstr "Порт:"
+
+#: .././templates/admin.php:42
+msgid "Title of HTML block:"
+msgstr "Заголовок HTML блока:"
+
+#: .././templates/admin.php:50
+msgid "Max result posts:"
+msgstr "Максимальное кол-во записей в HTML блоке:"
+
+#: .././templates/admin.php:60 .././templates/admin.php:118
+#: .././templates/admin.php:133 .././templates/admin.php:154
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: .././templates/admin.php:63
+#, fuzzy
+msgid "Search settings"
+msgstr "Основные настройки"
+
+#: .././templates/admin.php:67
+msgid ""
+"Post title, categories, tags, text are used to search similar content. All "
+"occurrence has weigth.<br>The larger sum weigths, the greater the similarity."
+"<br>Publications which have a weight of less than the minimum are not similar"
+msgstr ""
+"Заголовок публикации, названия его категорий и меток, используются для "
+"нахожденияя похожих материалов.<br>То где эти данные будут найдены, "
+"определяет степень похожести (общий вес).<br>Общий вес складывается из суммы "
+"весов вхождений, то есть от того где найдено совпадение.<br>Похожей статья "
+"является если проходит порог минимального веса. Чем больше вес, тем больше "
+"степень похожести. "
+
+#: .././templates/admin.php:77
+msgid "Min weight:"
+msgstr "Минимальный вес:"
+
+#: .././templates/admin.php:85
+msgid "Weight occurrence in TITLE:"
+msgstr "Вес вхождения в ЗАГОЛОВКЕ:"
+
+#: .././templates/admin.php:92
+msgid "Weight occurrence in CATEGORY:"
+msgstr "Вес вхождения в РУБРИКЕ:"
+
+#: .././templates/admin.php:100
+msgid "Weight occurrence in TAG:"
+msgstr "Вес вхождения в МЕТКЕ:"
+
+#: .././templates/admin.php:107
+msgid "Weight occurrence in TEXT:"
+msgstr "Вес вхождения в СОДЕРЖАНИИ:"
+
+#: .././templates/admin.php:121
+msgid "Stop words"
+msgstr "Стоп слова"
+
+#: .././templates/admin.php:124
+msgid ""
+"Stop words that are not used in calculating the posts keywords that are used "
+"to determine similarity."
+msgstr ""
+"Слова исключения, которые не будут использоваться при вичислении ключевых "
+"слов публикации, которые используются для определения похожести."
+
+#: .././templates/admin.php:136
+msgid "Sphinx conf file"
+msgstr "Конфигурационный файл Sphinx"
+
+#: .././templates/admin.php:139
+msgid ""
+"Below is a sample Sphinx configuration file. You need to configure the "
+"search server manually."
+msgstr ""
+"Ниже приведен примерный конфигурационный файл Sphinx. С помощью него вам "
+"необходимо настроить поисковой сервер самостоятельно."
+
+#: .././templates/admin.php:144
+msgid "Prefix:"
+msgstr "Префикс:"
+
+#: .././inc/admin.php:43 .././inc/admin.php:44 .././inc/default.php:88
+msgid "Related Posts"
+msgstr "Похожие записи"

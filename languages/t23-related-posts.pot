@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 23t-related-posts\n"
+"POT-Creation-Date: 2013-09-09 16:16+0400\n"
+"PO-Revision-Date: 2013-09-09 16:16+0400\n"
+"Last-Translator: itlessons <info@itlessons.info>\n"
+"Language-Team: itlessons <info@itlessons.info>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././templates/admin.php:17
+msgid "General Settings"
+msgstr ""
+
+#: .././templates/admin.php:22
+msgid "Enabled:"
+msgstr ""
+
+#: .././templates/admin.php:31
+msgid "Search server:"
+msgstr ""
+
+#: .././templates/admin.php:35
+msgid "Port:"
+msgstr ""
+
+#: .././templates/admin.php:42
+msgid "Title of HTML block:"
+msgstr ""
+
+#: .././templates/admin.php:50
+msgid "Max result posts:"
+msgstr ""
+
+#: .././templates/admin.php:60 .././templates/admin.php:123
+#: .././templates/admin.php:137 .././templates/admin.php:157
+msgid "Save settings"
+msgstr ""
+
+#: .././templates/admin.php:63
+msgid "Search settings"
+msgstr ""
+
+#: .././templates/admin.php:67
+msgid ""
+"Post title, categories, tags, text are used to search similar content. All "
+"occurrence has weigth.<br>The larger sum weigths, the greater the similarity."
+"<br>Publications which have a weight of less than the minimum are not similar"
+msgstr ""
+
+#: .././templates/admin.php:82
+msgid "Min weight:"
+msgstr ""
+
+#: .././templates/admin.php:90
+msgid "Weight occurrence in TITLE:"
+msgstr ""
+
+#: .././templates/admin.php:97
+msgid "Weight occurrence in CATEGORY:"
+msgstr ""
+
+#: .././templates/admin.php:105
+msgid "Weight occurrence in TAG:"
+msgstr ""
+
+#: .././templates/admin.php:112
+msgid "Weight occurrence in TEXT:"
+msgstr ""
+
+#: .././templates/admin.php:126
+msgid "Stop words"
+msgstr ""
+
+#: .././templates/admin.php:129
+msgid ""
+"Stop words that are not used in calculating the posts keywords that are used "
+"to determine similarity."
+msgstr ""
+
+#: .././templates/admin.php:140
+msgid "Sphinx conf file"
+msgstr ""
+
+#: .././templates/admin.php:143
+msgid ""
+"Below is a sample Sphinx configuration file. You need to configure the "
+"search server manually."
+msgstr ""
+
+#: .././templates/admin.php:147
+msgid "Prefix:"
+msgstr ""
+
+#: .././inc/admin.php:43 .././inc/admin.php:44
+msgid "Related Posts"
+msgstr ""
